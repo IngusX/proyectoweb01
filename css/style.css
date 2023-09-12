@@ -1,0 +1,35 @@
+
+/* Esilos generales para el cuerpo del documento*/
+
+body {
+ font-family: 'Montserrat', sans-serif;  /* Define la fuente del tecxto*/
+ margin: 0; /* Elimina los margenesp por deecto*/
+ padding: 0; /* Elimina el paddng por defecto*/
+ min-height: 100vh; /* Asegura que el body ocupe al menos toda la altura de la ventana del navgador*/
+}
+
+nav {
+background-color: #000000;
+color: white;
+padding: 20px 0px 10px 0px;/* Top, Rigth, Bottom, left*/
+text-align: center; /*centra el ul*/
+position: fixed; /* hace que el nav quede fijo, top, left, rigth, bottom*/
+top: 0; /* Alina el navbar con la pate superior de la pagina*/
+left: 0; /* Alina el navbar con el lado izquierdo de la pagina*/
+width: 100%; /* Asegura que el nav ocupe todo el ancho de la pagina*/
+}
+
+nav ul {
+list-style: none;
+
+}
+
+nav li {
+display: inline;
+}
+
+nav a {
+text-decoration: none;
+color:white;
+
+}
